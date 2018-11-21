@@ -18,7 +18,6 @@
 				<ImageView id="off"></ImageView>
 				<Label id="texto"></Label>
 			</View>
-
 		</View>
 	</Window>
 </Alloy>

@@ -85,7 +85,7 @@ btnFoto.addEventListener('click', function() {
 			if (e.success) {
 				abrirFoto();
 			} else {
-				alert('no se pudo optener permisos de la camara');
+				alert('No se pudo optener permisos de la camara');
 			}
 		});
 	} else {
@@ -103,7 +103,7 @@ function abrirFoto() {
 			seleccionoImagen = true;
 		},
 		error : function(e) {
-			alert('error al abrir la imagen' + e.error);
+			alert('Error al abrir la imagen' + e.error);
 		}
 	});
 }
@@ -143,7 +143,7 @@ btnEnvio.addEventListener('click', function(e) {
 				
 			},
 			onerror : function(e) {
-				alert('error al enviar la imagen volver a intentar!');
+				alert('Error al enviar la imagen volver a intentar!');
 			},
 			timeout : 20000,
 		});
