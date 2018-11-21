@@ -12,6 +12,7 @@ var imageView,
 var image;
 var imagenBase64;
 var seleccionoImagen = false;
+var grados;
 
 //control que vizualiza la foto tomada o imagen seleccionada
 viewImage = Ti.UI.createImageView({
