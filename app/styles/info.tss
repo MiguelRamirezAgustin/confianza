@@ -9,9 +9,9 @@
 }
 "#lblInfo":{
 	font : {
-		fontSize : 19,
+		fontSize : 20,
 		fontWeight : "bold"
 	},
 	top: 0,
-	color: 'black'
+	color: 'white'
 }
