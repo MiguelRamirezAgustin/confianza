@@ -1,5 +1,5 @@
-function doClick(e) {
-	alert($.label.text);
-}
-
+$.btnEntrar.addEventListener('click', function(){
+	var menu= Alloy.createController('menu').getView();
+	menu.open();
+});
 $.index.open();

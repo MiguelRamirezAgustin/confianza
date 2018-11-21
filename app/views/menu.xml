@@ -1,0 +1,24 @@
+<Alloy>
+	<Window orientationModes="Titanium.UI.PORTRAIT" layout="vertical">
+		<View height="100%" width="100%" layout="vertical" backgroundColor="#20B4D8">
+			<View id="columSuperio1"></View>
+			<View id="colum1">
+				<ImageView id="imgAutorizacion"></ImageView>
+				<ImageView id="imgPagos"></ImageView>
+			</View>
+			<View id="colum2">
+				<ImageView id="imgCotizador"></ImageView>
+				<ImageView id="imgConsultas"></ImageView>
+			</View>
+			<View id="colum3">
+				<ImageView id="imgRayos"></ImageView>
+				<ImageView id="imgDigitalizacion"></ImageView>
+			</View>
+			<View id="columInferior">
+				<ImageView id="off"></ImageView>
+				<Label id="texto"></Label>
+			</View>
+
+		</View>
+	</Window>
+</Alloy>

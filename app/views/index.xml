@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<View id="ViewPrincipal">
+			<ImageView id="logoChubb"></ImageView>
+			<Button id="btnLogin"></Button>
+			<TextField id="texUsuario"></TextField>
+			<TextField id="texContraseña"></TextField>
+			<Button id="btnEntrar"></Button>
+		</View>
 	</Window>
 </Alloy>
