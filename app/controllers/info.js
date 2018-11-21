@@ -27,13 +27,13 @@ for (var i = 0; i < nuevoObjeto.data.length; i++) {
 		layout : 'vertical',
 		width : Ti.UI.FILL,
 		height : '100dp',
-		borderColor : 'black',
+		borderColor : 'white',
 		top : 1,
 	});
 	$.scroll.add(viewInformacion);
 
 	var label = Ti.UI.createLabel({
-		color : 'black',
+		color : 'white',
 		height : Ti.UI.SIZE,
 		top : 25,
 		text : nuevoObjeto.data[i].label + ':',
@@ -47,7 +47,7 @@ for (var i = 0; i < nuevoObjeto.data.length; i++) {
 	viewInformacion.add(label);
 
 	var labelNombre = Ti.UI.createLabel({
-		color : 'black',
+		color : 'white',
 		height : Ti.UI.SIZE,
 		top : 10,
 		text : nuevoObjeto.data[i].value,
