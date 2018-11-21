@@ -27,7 +27,7 @@ for (var i = 0; i < nuevoObjeto.data.length; i++) {
 		layout : 'vertical',
 		width : Ti.UI.FILL,
 		height : '100dp',
-		borderColor : 'white',
+			borderColor : 'white',
 		top : 1,
 	});
 	$.scroll.add(viewInformacion);

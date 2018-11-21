@@ -31,8 +31,7 @@ btnGaleria = Ti.UI.createButton({
 	right:5,
 	width:'120px',
 	height: '120px',
-	title:'galeria',
-	backgroundColor:'#6e27c5'
+	backgroundImage: '/images/picture.png'
 });
 $.footer.add(btnGaleria);
 
@@ -42,8 +41,7 @@ btnFoto = Ti.UI.createButton({
 	left:10,
 	width:'120px',
 	height: '120px',
-	backgroundColor:'#6e27c5',
-	title: 'tomar foto'
+	backgroundImage: '/images/camera.png'
 });
 $.footer.add(btnFoto);
 
@@ -179,7 +177,7 @@ var etiquetas = Ti.UI.createLabel({
 	width : Ti.UI.SIZE,
 	height : Ti.UI.SIZE,
 	top : 5,
-	color : 'black'
+	color : 'white'
 });
 $.header.add(etiquetas);
 
