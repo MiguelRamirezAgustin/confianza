@@ -1,4 +1,30 @@
+".container":{
+	backgroundColor: '1fc0d4',
+	orientationModes: [Titanium.UI.PORTRAIT]
+}
+"#header":{
+	width: Titanium.UI.FILL,
+	height: '40dp',
+	//backgroundColor: 'white',
+	top: 0,
+	//borderColor: 'blue',
+	layout: 'vertical'
+}
+"#container":{
+	width: Titanium.UI.FILL,
+	height: '490dp',
+	//backgroundColor: 'blue',
+	//borderColor: 'gren',
+	top: 25,
+	layout: 'vertical'
+}
 
-".container" : {
-  
+"#footer":{
+	width: Titanium.UI.FILL,
+	height: '80dp',
+	//backgroundColor: 'white',
+	bottom: 0,
+	//borderColor: 'black',
+	left: 10,
+	right: 10
 }
