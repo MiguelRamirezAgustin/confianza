@@ -1,4 +1,9 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window id="win" backgroundColor="white">
+		<View id="winInfo">
+			<ScrollView id="scroll" showVerticalScrollIndicator="true" layout="vertical" >
+				<Label id="lblInfo">Información</Label>
+			</ScrollView>
+		</View>
+	</Window>
 </Alloy>

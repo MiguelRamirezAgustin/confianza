@@ -1,5 +1,5 @@
 ".container":{
-	backgroundColor: '1fc0d4',
+	backgroundColor: '#1fc0d4',
 	orientationModes: [Titanium.UI.PORTRAIT]
 }
 "#header":{
