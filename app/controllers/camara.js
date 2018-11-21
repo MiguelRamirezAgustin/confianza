@@ -49,7 +49,8 @@ $.footer.add(btnFoto);
 btnEnvio = Ti.UI.createButton({
 	bottom: 10,
 	backgroundColor:'#6e27c5',
-	title: 'Enviar foto'
+	title: 'Enviar foto',
+	width: '180dp'
 });
 $.footer.add(btnEnvio);
 

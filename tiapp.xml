@@ -9,7 +9,7 @@
     <copyright>2018 by imac2</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
-    <navbar-hidden>false</navbar-hidden>
+    <navbar-hidden>true</navbar-hidden>
     <analytics>true</analytics>
     <guid>815e1d06-032b-4692-9555-6b08dc9a71a4</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
