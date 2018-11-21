@@ -11,7 +11,7 @@ var documento = Ti.UI.createLabel({
 	text : 'Documento: ' + nuevoObjeto.documentType,
 	width : Ti.UI.FILL,
 	left : 10,
-	color : 'black',
+	color : 'white',
 	font : {
 		fontSize : 19,
 		fontWeight : 'bold'
