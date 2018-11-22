@@ -1,6 +1,6 @@
 <Alloy>
-	<Window orientationModes="Titanium.UI.PORTRAIT" layout="vertical">
-		<View height="100%" width="100%" layout="vertical" backgroundColor="#20B4D8">
+	<Window class="container"  layout="vertical">
+		<View height="100%" width="100%" layout="vertical" backgroundColor="#20B4D8" id="orientation">
 			<View id="columSuperio1"></View>
 			<View id="colum1">
 				<ImageView id="imgAutorizacion"></ImageView>

@@ -1,3 +1,11 @@
+"#orientation":{
+	orientationModes:[
+		 Titanium.UI.PORTRAIT
+	]
+}
+".container":{
+	orientationModes: [Titanium.UI.PORTRAIT]
+}
 
 "#columSuperio1":{
 	width:"100%",
