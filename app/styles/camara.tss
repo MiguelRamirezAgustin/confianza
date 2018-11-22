@@ -28,3 +28,8 @@
 	left: 10,
 	right: 10
 }
+"#main":{
+	backgroundColor: '#1fc0d4',
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+}

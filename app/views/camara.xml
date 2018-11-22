@@ -1,9 +1,9 @@
 <Alloy>
 	<Window class="container">
-		<ScrollView showPagingControl="true">
+		<View id="main">
 			<View id="container"></View>
 			<View id="header"></View>
 			<View id="footer"></View>
-		</ScrollView>
+		</View>
 	</Window>
 </Alloy>
