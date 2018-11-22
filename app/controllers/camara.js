@@ -73,7 +73,7 @@ function abrirGaleria() {
 			}
 		},
 		error : function(e) {
-			alert('In error: ' + e.error);
+			alert('In error ');
 		}
 	});
 }
@@ -102,7 +102,7 @@ function abrirFoto() {
 			seleccionoImagen = true;
 		},
 		error : function(e) {
-			alert('Error al abrir la imagen' + e.error);
+			alert('Error al abrir la imagen');
 		}
 	});
 }
