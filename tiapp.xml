@@ -38,6 +38,13 @@
                 <false/>
                 <key>UIStatusBarStyle</key>
                 <string>UIStatusBarStyleDefault</string>
+                				<!--se agrego NSCAMERA-->
+                	<key>NSCameraUsageDescription</key>
+				<string>Can we use your camera?</string>
+				<key>NSMicrophoneUsageDescription</key>
+				<string>Can we use your microphone?</string>
+				<key>NSPhotoLibraryUsageDescription</key>
+				<string>Can we save to your library?</string>
             </dict>
         </plist>
     </ios>
