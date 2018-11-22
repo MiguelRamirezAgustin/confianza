@@ -16,7 +16,7 @@
 "#logoChubb":{
 	image:'/images/logochubb.png',
 	top:"5%",
-	width:"65%",
+	width:"50%",
 	height:"20%"
 }
 
@@ -25,7 +25,7 @@
 	color:"white",
 	backgroundColor:"#772EE0",
 	top:"5%",
-	width:"65%",
+	width:"70%",
 	height:"9%"
 }
 
@@ -33,28 +33,28 @@
 	title:"Entrar",
 	color:"white",
 	backgroundColor:"#772EE0",
-	top:"6%",
-	width:"65%",
+	top:"4%",
+	width:"70%",
 	height:"9%"
 }
 
 
 "#texUsuario":{
-	width:"65%",
+	width:"70%",
 	height:"9%",
 	backgroundColor:"white",
 	color:"black",
-	top:"5%",
+	top:"3%",
 	maxLength:30,
 	
 }
 
 "#texContraseña":{
-	width:"65%",
+	width:"70%",
 	height:"9%",
 	backgroundColor:"white",
 	color:"black",
-	top:"5%",
+	top:"3%",
 	maxLength:30
 		
 }

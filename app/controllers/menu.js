@@ -4,3 +4,8 @@ $.imgDigitalizacion.addEventListener('click', function(){
   var siguiente=Alloy.createController('camara').getView();
   siguiente.open();
 });
+
+$.off.addEventListener('click', function(){
+	var login = Alloy.createController('index').getView();
+	login.open();
+});
