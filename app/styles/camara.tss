@@ -21,7 +21,7 @@
 
 "#footer":{
 	width: Titanium.UI.FILL,
-	height: '80dp',
+	height: '70dp', //80dp
 	//backgroundColor: 'white',
 	bottom: 0,
 	//borderColor: 'black',

@@ -18,7 +18,7 @@ viewImage = Ti.UI.createImageView({
 	borderColor : 'white',
 	top : 30,
 	width : '350dp',
-	height : '480dp',
+	height : '450dp', //480
 	borderRadius : 5,
 	borderWidth : 2,
 	layout : 'vertical'
