@@ -120,6 +120,7 @@ btnEnvio.addEventListener('click', function(e) {
 	} else {
 
 		btnEnvio.title = "Procesando...";
+		btnEnvio.color = 'white';
 		btnEnvio.enabled = false;
 		
 		var url = 'https://8oepupymf6.execute-api.us-east-2.amazonaws.com/sprint2-test';
