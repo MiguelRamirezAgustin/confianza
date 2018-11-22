@@ -122,10 +122,11 @@ btnEnvio.addEventListener('click', function(e) {
 		btnEnvio.title = "Procesando...";
 		btnEnvio.enabled = false;
 		
-		var url = 'https://8oepupymf6.execute-api.us-east-2.amazonaws.com/sprint2-test'
+		var url = 'https://8oepupymf6.execute-api.us-east-2.amazonaws.com/sprint2-test';
 		
 		//'https://7chgh1ve59.execute-api.us-east-2.amazonaws.com/sda-test';
 		//'https://ko7afa9vef.execute-api.us-east-2.amazonaws.com/SDA'; //
+		
 		var httpClient = Ti.Network.createHTTPClient({
 			onload : function(e) {
 
