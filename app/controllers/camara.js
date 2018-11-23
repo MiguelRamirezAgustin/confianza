@@ -119,9 +119,9 @@ btnEnvio.addEventListener('click', function(e) {
 		alert('Seleccione una imagen o tome una Foto!');
 	} else {
 
-		btnEnvio.title = "Procesando...";
-		btnEnvio.color = 'white';
-		btnEnvio.enabled = false;
+		// btnEnvio.title = "Procesando...";
+		// btnEnvio.color = 'white';
+		// btnEnvio.enabled = false;
 		
 		var url = 'https://8oepupymf6.execute-api.us-east-2.amazonaws.com/sprint2-test';
 		
