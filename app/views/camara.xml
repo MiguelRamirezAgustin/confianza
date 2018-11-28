@@ -2,7 +2,8 @@
 	<Window class="container">
 		<View id="main">
 			<View id="container"></View>
-			<View id="header"></View>
+			<View id="header">
+			</View>
 			<View id="footer"></View>
 		</View>
 	</Window>
