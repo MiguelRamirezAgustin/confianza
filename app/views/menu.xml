@@ -12,7 +12,7 @@
 			</View>
 			<View id="colum3">
 				<ImageView id="imgRayos"></ImageView>
-				<ImageView id="imgDigitalizacion"></ImageView>
+				<ImageView id="imgDigitalizacion" ></ImageView>
 			</View>
 			<View id="columInferior">
 				<ImageView id="off"></ImageView>

@@ -1,4 +1,32 @@
-<Alloy>
-	<View class="container">
-	</View>
+<Alloy >
+ <TabGroup backgroundColor="white" >
+            <Tab id="tab1" title="Tabla 1" >
+                <Window title="Tabla 1">
+                   <Label  color="balck">Informacion</Label>
+                </Window>
+            </Tab>
+            <Tab id="tab2" title="Tabla 2">
+                <Window  title="Tabla 2">
+                    <Label color="black">Informacion</Label>
+                </Window>
+            </Tab>
+        </TabGroup>
+   <!--<Require src="tabla"/>-->
+   
+   <!-- <Window> lista para datos
+        <ListView id="listView" defaultItemTemplate="template">
+            <ListSection headerTitle="Fruit / Frutas">
+                <ListItem info:text="Apple" es_info:text="Manzana" pic:image="/apple.png" />
+                <ListItem info:text="Banana" es_info:text="Banana" pic:image="/banana.png" />
+            </ListSection>
+            <ListSection headerTitle="Vegetables / Verduras">
+                <ListItem info:text="Carrot" es_info:text="Zanahoria" pic:image="/carrot.png" />
+                <ListItem info:text="Potato" es_info:text="Patata" pic:image="/potato.png" />
+            </ListSection>
+            <ListSection headerTitle="Grains / Granos">
+                <ListItem info:text="Corn" es_info:text="Maiz" pic:image="/corn.png" />
+                <ListItem info:text="Rice" es_info:text="Arroz" pic:image="/rice.png" />
+            </ListSection>
+        </ListView>     
+    </Window> -->
 </Alloy>

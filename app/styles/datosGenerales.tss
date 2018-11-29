@@ -1,4 +1,7 @@
-
-".container" : {
-  
+"#windowsGeneral":{
+    orientationModes:[Titanium.UI.PORTRAIT],
+    backgroundColor:"#20B4D8",
+    width:"100%",
+	height:"100%"
 }
+

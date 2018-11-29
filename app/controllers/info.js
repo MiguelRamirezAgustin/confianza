@@ -56,3 +56,29 @@ for (var i = 0; i < nuevoObjeto.data.length; i++) {
 	});
 	viewInformacion.add(labelNombre);
 }
+
+//Boton para acceder a informacion general
+var buttonInformeGeneral=Ti.UI.createButton({
+	width:"180dp",
+	height:"40dp",
+	top:"45%",
+	title:"INFORMACION",
+	color:"white",
+	borderColor:"white",
+	borderRadius:4,
+	borderWidth:2,
+	backgroundColor:"#1fc0d4",
+	font:{
+		fontSize:15
+	}
+});
+$.scroll.add(buttonInformeGeneral);
+
+//fuction para acceder a pantalla datos general
+buttonInformeGeneral.addEventListener('click', function(){
+var datoGeneral= Alloy.createController('datosGenerales').getView();
+datoGeneral.open();
+});
+
+
+

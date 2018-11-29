@@ -3,3 +3,6 @@ $.btnEntrar.addEventListener('click', function(){
 	menu.open();
 });
 $.index.open();
+
+
+var tabGroupGlobal;
