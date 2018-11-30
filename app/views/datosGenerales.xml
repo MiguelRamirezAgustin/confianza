@@ -1,20 +1,19 @@
 <Alloy >
-   <Window> 
-     <ListView id="streamListview">
-
-       <Templates>
-            <ItemTemplate name="template" id="template">
-                <View >               
-                   <ImageView bindId="pic" />
-                   <Label bindId="username" />
-                </View>
-            </ItemTemplate>
-        </Templates>
-
-        <ListSection id="section">
-            <ListItem template="template"/>
-        </ListSection>                  
-
-   </ListView>
+   <Window  id="windowsGeneral">  
+        <View backgroundColor="#20B4D8">
+            <Label id="texto_Informacion"></Label>
+            <ListView id="streamListview" >
+            <Templates backgroundColor="red">
+                    <ItemTemplate name="template" id="template">
+                        <View  id="viewList">        
+                        <Label bindId="username" id="labeltexto"/>
+                        </View>
+                    </ItemTemplate>
+                </Templates>
+                <ListSection id="section" >
+                    <ListItem template="template"/>
+                </ListSection>                  
+           </ListView>
+        </View>
     </Window>
 </Alloy>

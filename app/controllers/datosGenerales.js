@@ -3,10 +3,10 @@ var args = $.args;
 
 var datosService = args.response;
 
-console.log('mmmmm-------' +datosService);
+console.log('Objeto-------' +datosService);
 
 Ti.API.info('Datos...............'+ JSON.stringify(datosService));
-function jshhd(datosService){
+
 
 
     var itemCollection=[];
@@ -14,12 +14,18 @@ function jshhd(datosService){
         var tmp={
             template:'template',
             username:{text:datosService.data[i].value},
+            
         };
         itemCollection.push(tmp);
     }
     
     $.section.setItems(itemCollection);
-}
+
+/* setTimeout(function(){
+    alert('demo'+JSON.stringify(datosService));
+},3000)*/
+
+
    // $.section.sections[0].items = itemCollection;
 
 /*
@@ -36,9 +42,7 @@ var posts=[];
 */
 
 
-setTimeout(function(){
-    alert('demo'+JSON.stringify(datosService));
-  },3000)
+
 
 /*
 function crearContacto(){

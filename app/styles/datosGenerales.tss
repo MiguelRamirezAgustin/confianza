@@ -4,3 +4,55 @@
     width:"100%",
 	height:"100%"
 }
+
+
+"#streamListview":{
+    width:"100%",
+    height:"20%",
+    top:"5dp"
+}
+
+"#section":{
+    backgroundColor:"#20B4D8",
+    color:"black"
+}
+
+"#template":{
+    backgroundColor:"#20B4D8",
+    width:"100%",
+    height:"10%"
+}
+
+"#viewList":{
+    width:"100%",
+    backgroundColor:"#20B4D8",
+    borderColor:"white",
+    borderRadiun:2,
+    height:"50%"
+}
+
+
+"#labeltexto":{
+    left:"5dp",
+    color:"white",
+    font:{
+        fontSize:15
+    }
+}
+
+
+
+"#streamListview":{
+    top:8,
+    width:"100%"
+}
+
+"#texto_Informacion":{
+    color:"white",
+    top:2,
+    text:"INFORMACION GENERAL",
+    textAling:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    font:{
+        fontSize:20
+    } 
+}

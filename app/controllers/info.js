@@ -2,10 +2,11 @@
 var args = $.args;
 
 
-var general;
 
 var datosService = args.response;
+
 Ti.API.info('aqui esta con argumentos_____:' + JSON.stringify(datosService));
+
 
 var nuevoObjeto = datosService;
 
