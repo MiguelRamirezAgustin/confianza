@@ -1,8 +1,11 @@
 // Arguments passed into this controller can be accessed via the `$.args` object directly or:
 var args = $.args;
 
+
+var general;
+
 var datosService = args.response;
-Ti.API.info('aqui esta con argumentos_______________________:' + JSON.stringify(datosService));
+Ti.API.info('aqui esta con argumentos_____:' + JSON.stringify(datosService));
 
 var nuevoObjeto = datosService;
 
@@ -74,10 +77,16 @@ var buttonInformeGeneral=Ti.UI.createButton({
 });
 $.scroll.add(buttonInformeGeneral);
 
+
+//pasar informcion a lisview
+//var objetoGeneralInformacion=JSON.parse(nuevoObjeto);
+
 //fuction para acceder a pantalla datos general
 buttonInformeGeneral.addEventListener('click', function(){
-var datoGeneral= Alloy.createController('datosGenerales').getView();
+var datoGeneral= Alloy.createController('datosGenerales', args).getView();
 datoGeneral.open();
+console.log("objeto de informacion--------------"+ args);
+console.log("objeto de informacion texto--------------"+JSON.stringify(args));
 });
 
 

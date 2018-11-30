@@ -1,9 +1,63 @@
 // Arguments passed into this controller can be accessed via the `$.args` object directly or:
 var args = $.args;
 
+var datosService = args.response;
+
+console.log('mmmmm-------' +datosService);
+
+Ti.API.info('Datos...............'+ JSON.stringify(datosService));
+function jshhd(datosService){
 
 
+    var itemCollection=[];
+    for(var i=0; i<datosService.data.length; i++){
+        var tmp={
+            template:'template',
+            username:{text:datosService.data[i].value},
+        };
+        itemCollection.push(tmp);
+    }
+    
+    $.section.setItems(itemCollection);
+}
+   // $.section.sections[0].items = itemCollection;
 
+/*
+var posts=[];
+  for(var i=0; i<nuevoObjeto.data.length; i++){
+      var post={
+           template="template",  
+           nombre:{text:nuevoObjeto.data[i].value},
+          // nombre: { text : data[i].get("nombre")}
+      };
+      posts.push(post);
+  }
+  $.section.setItems(posts);
+*/
+
+
+setTimeout(function(){
+    alert('demo'+JSON.stringify(datosService));
+  },3000)
+
+/*
+function crearContacto(){
+    var items=[];
+    /*for(var i=0; i<nuevoObjeto.data.length; i++){
+       items.push({
+        nombre:{text:nuevoObjeto.data[i].value},
+       });
+       $.listView.sections[0].setItem(items);
+    }
+    var items=[];
+    _.each(function (nuevoObjeto){
+        items.push({
+          nombre:{text:nuevoObjeto.data[i].value},
+        });
+    });
+    $.listView.sections[0].setItem(items);
+}
+crearContacto(); */
 
 
 /*

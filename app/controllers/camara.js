@@ -143,7 +143,7 @@ btnEnvio.addEventListener('click', function(e) {
 		var url = 'https://8oepupymf6.execute-api.us-east-2.amazonaws.com/sprint2-test';
 		
 		//'https://7chgh1ve59.execute-api.us-east-2.amazonaws.com/sda-test';
-		//'https://ko7afa9vef.execute-api.us-east-2.amazonaws.com/SDA'; //
+		//var url='https://ko7afa9vef.execute-api.us-east-2.amazonaws.com/SDA'; //
 		
 		var httpClient = Ti.Network.createHTTPClient({
 			onload : function(e) {
@@ -155,6 +155,8 @@ btnEnvio.addEventListener('click', function(e) {
 				var miObjetoRespuesta = {
 					response : JSON.parse(this.responseText)
 				};
+
+				console.log('respuesta-----'+ miObjetoRespuesta);
 				//habilitar boton al responder el servicio
 				btnEnvio.title = "Enviar Imágen";
 				btnEnvio.color = 'white';

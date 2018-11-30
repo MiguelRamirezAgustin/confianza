@@ -10,22 +10,16 @@ $.off.addEventListener('click', function(){
 	login.open();
 });
 
-
 $.imgRayos.addEventListener('click',function(){
   var demo=Alloy.createController('datosGenerales').getView();
  demo.open();
 });
-
-
-
-
 
 /*
 function open(){
   var view = Alloy.createController("datosGenerales").getView();
     $.nav.openWindow(view);
 }*/
-
 
 /*
 $.imgRayos.addEventListener('click',function(){
